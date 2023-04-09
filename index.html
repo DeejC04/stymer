@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Timer App</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 class="title">stymer</h1>
+    <div class="descwrap">
+        <div class="desc">
+            <p class="cont">
+                a <b>minimalistic solution</b> to distraction and procrastination;<br>
+                <b>track</b> what you studied, for <b>how much time</b>.
+            </p>
+        </div>
+    </div>
+    <div class="wrapper">
+      <div class="container">
+        <div class="timer">
+          <span id="timer">
+          </span>
+        </div>
+        <label for="time">Enter time below</label> <br>
+        <input type="number" id="min" placeholder="Mins"> <b>:</b>
+        <input type="number" id="sec" placeholder="Secs">
+        <div class="buttons">
+          <button class="start" onclick="startCountdown()">Start Timer</button>
+          <button class="stop" onclick="stopCountdown()">Stop Timer</button>
+        </div>
+      </div>
+    </div>
+    <p>Stymer is an elegant, minimalistic tool that can be used to enhance your studies through our
+      no-distractions philosophy. You have what you need, and nothing more, in order to keep your
+      focus on what matters.</p>
+      <footer>
+        <div class="footer-content">
+          <span class="copyright">
+            &copy; 2023 Dana Edward Cabral, <br>
+            All Rights Reserved.
+          </span>
+          <h3>Stymer</h3>
+        </div>
+      </footer>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#timer", {
+        strings: ["5:00", "20:36", "10:00", "15:04"],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true
+      })
+    </script>
+  </body>
+</html>
