@@ -135,7 +135,6 @@ body footer .copyright {
   color: #908a89;
   margin-left: 10px;
 }
-
 input[type=number] {
   margin-top: 7px;
   background-color: #5f5c51;
@@ -150,7 +149,6 @@ input[type=number] {
   font-size: 30px;
   font: 100% "Montserrat", sans-serif;
 }
-
 input[type=number]:focus {
   padding: 1rem 1rem;
   width: 125px;
@@ -159,34 +157,38 @@ input[type=number]:focus {
   transition: all 0.5s;
   font-size: 50px;
 }
-
 input[type=number]:hover {
   padding: 1rem 1rem;
   width: 125px;
   outline: none;
   border-radius: 6px;
 }
-
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: hsl(46, 20%, 75%);
   font: 100% "Montserrat", sans-serif;
   opacity: 1; /* Firefox */
 }
-
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
   color: hsl(46, 20%, 75%);
   font: 100% "Montserrat", sans-serif;
 }
-
 ::-ms-input-placeholder { /* Microsoft Edge */
   color: hsl(46, 20%, 75%);
   font: 100% "Montserrat", sans-serif;
 }
-
+.time-up {
+  font-size: 100px;
+}
+a {
+  
+  color: #99ffcf;
+}
+a:hover {
+  color: #cecbc1;
+}
 /*# sourceMappingURL=styles.css.map */

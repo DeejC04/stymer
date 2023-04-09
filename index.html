@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Timer App</title>
+    <title>Stymer</title>
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
@@ -20,10 +20,10 @@
           <span id="timer">
           </span>
         </div>
-        <label for="time">Enter time below</label> <br>
+        <label for="time" id="tm">Enter time below</label> <br>
         <input type="number" id="min" placeholder="Mins"> <b>:</b>
         <input type="number" id="sec" placeholder="Secs">
-        <div class="buttons">
+        <div class="buttons" id="buts">
           <button class="start" onclick="startCountdown()">Start Timer</button>
           <button class="stop" onclick="stopCountdown()">Stop Timer</button>
         </div>
@@ -43,13 +43,5 @@
       </footer>
     <script src="script.js"></script>
     <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
-    <script>
-      var typed = new Typed("#timer", {
-        strings: ["5:00", "20:36", "10:00", "15:04"],
-        typeSpeed: 150,
-        backSpeed: 150,
-        loop: true
-      })
-    </script>
   </body>
 </html>
